@@ -35,5 +35,5 @@ npm run dev
 Vite will launch the local development server (typically `http://localhost:5173`).
 
 ## Theory: Mealy vs Moore
-**Mealy Machine**: The output is determined by its current state *and* its current input. The output sequence length is equal to the input sequence length.
+**Mealy Machine**: The output is determined by its current state *and* its current input. The output sequence length is equal to the input sequence length.<br>
 **Moore Machine**: The output is determined solely by its current state. The output sequence is inherently 1 step longer than the input sequence due to the initial state generating an associated trace character before reading sequence input.
